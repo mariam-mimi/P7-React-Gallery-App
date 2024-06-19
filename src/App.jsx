@@ -51,7 +51,7 @@ function App() {
     fetchDefaults();
   }, []);
 
-  // Controls the routes for the three topics
+  // Controls the routes for the three topics, searches, and when path not found
   return (
     <div className="container">
       <Search />
